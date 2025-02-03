@@ -1,0 +1,49 @@
+.movie-bg {
+  background-image: url(../../image/background-main.jpg);
+  background-size: 100% 100%;
+  background-position: center center;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content: space-around;
+  background:  rgb(21, 132, 184);
+}
+
+.movie-card {
+  width: 350px;
+  margin: 15px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 15px;
+  background: white;
+}
+
+.movie-card p {
+  margin: 5px 0px !important;
+}
+.movie-card h2 {
+  font-size: 18px;
+}
+
+.movie-title {
+  color: black;
+  margin: 0;
+}
+.movie-filter {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+.filter-select {
+  height: 40px;
+}
+
+.movie-details {
+  display: flex;
+}
+.movie-details img {
+  margin-right: 20px;
+}
